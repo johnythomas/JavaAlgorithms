@@ -1,7 +1,16 @@
 package johny.javaalgorithms.algorithms;
 
-/**
- * Created by johny on 14/2/17.
- */
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 public class DecimalToBinaryTest {
+
+    @Test
+    public void convertDecimalToBinaryTest() {
+
+        DecimalToBinary d = new DecimalToBinary();
+        String binary = d.convertDecimalToBinary(7);
+        assertEquals("111", binary);
+    }
 }

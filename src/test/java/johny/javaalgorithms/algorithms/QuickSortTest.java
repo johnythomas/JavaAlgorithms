@@ -1,12 +1,9 @@
-package johny.javaalgorithms.datastructures;
+package johny.javaalgorithms.algorithms;
 
-import johny.javaalgorithms.algorithms.QuickSort;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.stream.Stream;
-
-public class QickSortTest {
+public class QuickSortTest {
 
     @Test
     public void quicksortTest1() {
@@ -15,7 +12,6 @@ public class QickSortTest {
         QuickSort q = new QuickSort();
         q.quickSort(arr, 0, arr.length - 1);
         int sortedArr[] = new int[]{1, 2, 2, 3, 3, 3, 4, 5};
-        Stream.of(arr).forEach(ele -> System.out.print(ele + "\t"));
         for (int i = 0; i < arr.length; i++) {
             Assert.assertEquals(sortedArr[i], arr[i]);
         }

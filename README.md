@@ -1,5 +1,5 @@
 # JavaAlgorithms
-This project contains data structures and algorithms implemented in java. The Code will be highly commented and can be used by beginners for learning purpose.
+This project contains data structures and algorithms implemented in java. The Code will be highly commented and can be used by beginners for learning.
 
 ## How to contribute
 

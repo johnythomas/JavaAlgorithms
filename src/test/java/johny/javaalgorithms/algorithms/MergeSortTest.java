@@ -45,7 +45,6 @@ public class MergeSortTest {
 
     @Test(expected = NullPointerException.class)
     public void nullArrayTest() {
-        int[] array = null;
-        MergeSort.doMergeSort(array);
+        MergeSort.doMergeSort(null);
     }
 }

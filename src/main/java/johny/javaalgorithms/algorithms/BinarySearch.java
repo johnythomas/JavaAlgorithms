@@ -95,10 +95,9 @@ public class BinarySearch {
 			T searchValue) {
 
 		/*
-		 * internally calling the binarySearchRecurssive(T array[], int
-		 * startIndex, int endIndex, T searchValue, Comparator<T> comparator)
-		 * method by passing the comparator
+		 * internally calling the binarySearchRecurssive(T[], int , int, T,
+		 * Comparator<T>) method by passing the comparator
 		 */
-		return binarySearchRecurssive(array, startIndex, endIndex, searchValue, (val1, val2) -> val1.compareTo(val2));
+		return binarySearchRecurssive(array, startIndex, endIndex, searchValue, Comparator.naturalOrder());
 	}
 }

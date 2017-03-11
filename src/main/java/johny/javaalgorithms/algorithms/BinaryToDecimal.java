@@ -9,6 +9,7 @@ public class BinaryToDecimal {
 
     /**
      * converts binary number given to decimal number
+     *
      * @param binaryNumber - the binary number
      * @return - decimal representation of the binary number given
      */
@@ -19,7 +20,7 @@ public class BinaryToDecimal {
         /* represent the power of 2 */
         int power = 0;
         /* we will divide the binary number by 10 and multiply with the power of 2 till the binary number is 0 */
-        while(binaryNumber > 0) {
+        while (binaryNumber > 0) {
             /*
              * finding the decimal number. eg: 10 is equal to (1 * (2 ^ 1)) + (0 * (2 ^ 0)).
              * Here each digit of the binary is taken and multiplied with appropriate power of 2 and we add them to get the decimal

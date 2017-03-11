@@ -8,7 +8,7 @@ public class DecimalToBinary {
         StringBuilder binaryInReverse = new StringBuilder();
 
         /* do the operation till the decimal number is greater than 0 */
-        while(decimalNumber > 0) {
+        while (decimalNumber > 0) {
             /* divide the decimal number and get the remainder and append it to the binaryInReverse */
             binaryInReverse.append(decimalNumber % 2);
             /* after taking the remainder make the decimal number as decimalNumber / 2 for the next iteration */

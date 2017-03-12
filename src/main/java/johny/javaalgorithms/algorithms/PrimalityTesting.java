@@ -34,7 +34,7 @@ public class PrimalityTesting {
             }
         }
         // creating the list of primes based on isPrime
-        for (int i = 1; i < isPrime.length; i++) {
+        for (int i = 2; i < isPrime.length; i++) {
             // if isPrime[i] is true then the numeber is prime and is added to primeList
             if (isPrime[i]) {
                 primeList.add(i);
